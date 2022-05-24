@@ -6,3 +6,67 @@
 /* text color -> #453D3D */
 /* button color -> #B32274 */
 /* button text color -> white */
+body {
+  background-color: #B4E4E6;
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+}
+
+.center-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 25%
+  padding: 10px;
+}
+
+.center-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 0%
+  padding: 10px;
+}
+
+.center-p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 25%
+  padding: 10px;
+}
+
+img {
+  text-align: center;
+  margin-right: 0px;
+  height: 100px;
+  width: 100px;
+}
+
+h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-left: 30px;
+  font-size: 20px
+}
+
+p {
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-left: 20px;
+}
+
+#get-started {
+  border-radius: 5px;
+  background-color: #B32274;
+  color: white;
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
